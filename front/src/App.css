@@ -1,0 +1,30 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.scrum-note-button {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.scrum-note-button--active {
+    background-color: #666;
+    color: #EEE;
+}
+
+.chat {
+    padding: 10px;
+    background-color: #EEE;
+}
+
+.chat-messages {
+    padding: 0;
+    list-style: none;
+}
+
+td {
+    vertical-align: middle;
+}
